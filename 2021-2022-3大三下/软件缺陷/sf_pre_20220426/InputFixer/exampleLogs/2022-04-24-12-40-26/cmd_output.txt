@@ -1,0 +1,1224 @@
+F:\Desktop\课件\软件缺陷\sf_pre_20220426\InputFixer\source>python driver.py ../test_config_inputs/example_test_config.json
+
+Number: 1
+c208ff73-140f-4384-dbc9-264a6eb77ca3_0
+StateMachine
+num1 = int(input(" Please enter the first number: "))
+num2 = int(input(" Please enter the second number: "))
+num3 = (int(num1) + int(num2))
+x=num3
+if x > 100:
+    print("They add up to a big number")
+elif x <= 100:
+    print("They add up to: " + x)
+
+message was: TypeError
+Program Input: []
+
+message was:
+ERROR -> message was:
+message was: TypeError
+Program Input: ['33', '33', '22']
+
+message was:
+ERROR -> message was:
+Number: 2
+c2100a18-fce7-4bd3-d996-c2a809d6144d_0
+StateMachine
+matriz = []
+cont=0
+for i in range(3):
+  linha =[]
+  for j in range(3):
+    linha.append(int(input()))
+  matriz.append(linha)
+for i in range(3):
+  if linha[0] or linha[1] or linha[2]==0:
+    cont+=1
+for i in range(3):
+  print(matriz[i])
+print(cont)
+message was: ValueError
+Program Input: ['0']
+
+message was:
+ERROR -> message was:
+message was: ValueError
+Program Input: ['5']
+
+message was:
+ERROR -> message was:
+Number: 3
+c2125f8e-a33d-407a-848a-a822abfe683a_0
+StateMachine
+n = int ( input ())
+a = []
+for i in range (n):
+    a.append ( [0]* n)
+print (a) # лишняя, потом удалить
+N = 1
+i = 0
+j = 0
+m = n
+v = 'вправо'
+while N <= n ** 2:
+    while v == 'вправо':
+        a [i][j] = N
+        N += 1
+        if N > 25:
+            break
+        j += 1
+        if j == m :
+            j -= 1
+            i += 1
+            v = 'вниз'
+            break
+    while v == 'вниз':
+        a [i][j] = N
+        N += 1
+        if N > 25:
+            break
+        i += 1
+        if i == m :
+            v = 'влево'
+            i -= 1
+            j -= 1
+            break
+    while v == 'влево':
+        a [i][j] = N
+        N += 1
+        if N > 25:
+            break
+        if j == n - m:
+            v = 'вверх'
+            m -= 1
+            i -= 1
+            break
+        j -= 1
+    while v == 'вверх':
+        a [i][j] = N
+        N += 1
+        if N > 25:
+            break
+        if i == n - m:
+            v = 'вправо'
+            j += 1
+            break
+        i -= 1
+for i in a:
+    print (i)
+message was: IndexError
+Program Input: []
+
+message was:
+ERROR -> message was:
+message was: IndexError
+Program Input: ['3 влево']
+
+message was:
+ERROR -> message was:
+Number: 4
+c2176544-f954-47a5-c0fc-9bcd7c6585cb_0
+StateMachine
+no_of_element = int(input())
+A = []
+for i in range(no_of_element):
+    ele_to_add = int(input())
+    A.append(ele_to_add)
+
+A
+message was: ValueError
+Program Input: ['1 2']
+
+message was:
+ERROR -> message was:
+message was: ValueError
+Program Input: ['2', '5']
+
+message was:
+ERROR -> message was:
+Number: 5
+c2241172-cb66-406d-96b7-d87c232ac521_0
+StateMachine
+nome_aluno=input("Digite o nome do aluno: ")
+nota1=float(input("Informe a nota da primeira prova: "))
+nota2=float(input("Informe a nota da segunda prova: "))
+media_final=(nota1+nota2)/2
+print("Média final", media_final,"pontos")
+aprovado = (media_final>= 7)
+recuperacao = (media_final>5 and media_final<7)
+reprovado = not (media_final >= 5)
+print("Parabéns", nome_aluno, "você foi aprovado", aprovado)
+print(nome_aluno, "você foi reprovado", reprovado)
+print(nome_aluno, "você está de recuperação", recuperacao)
+message was: ValueError
+Program Input: ['Roberto', '4.4']
+
+message was:
+ERROR -> message was:
+message was: ValueError
+Program Input: ['você foi aprovado', 'Roberto', '13,8']
+
+message was:
+ERROR -> message was:
+Number: 6
+c2245688-5be6-4b62-df77-442f47f554f7_0
+StateMachine
+
+#funções
+
+def pede_nome():
+    return(input("Digite seu nome: "))
+
+def pede_cpf():
+    return(input("Digite seu cpf: "))
+
+def pede_matricula():
+    return(input("Digite a matricula: "))
+
+def add_professor():
+    return(input("Adicionar professor? [S/N] ").upper())
+
+def add_aluno():
+    return(input("Adicionar aluno? [S/N] ").upper())
+
+def add_disciplina():
+    return(input("Adicionar disciplina? [S/N] ").upper())
+
+def nome_disciplina():
+    return(input("Nome da disciplina: "))
+
+def codigo_disciplina():
+    return(input("Digite o código da disciplina:"))
+
+
+def add_supremo(parametro):
+    funcao = paremetro
+    if funcao == "professor":
+        input("Adicionar professor? [S/N] ").upper()
+    elif funcao == "aluno":
+        input("Adicionar aluno? [S/N] ").upper()
+    elif funcao == "disciplina":
+        input("Adicionar aluno? [S/N] ").upper()
+
+
+def chamada():
+    return(int(input("Digite a opção: ")))
+
+def menu_add():
+    print("""
+    ░░░░░░░░░ DIGITE O NÚMERO PARA ADICIONAR ░░░░░░░░░
+
+    ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+                  ADICIONAR PROFESSOR     [1]
+                  ADICIONAR DISCIPLINA    [2]
+                  ADICIONAR ALUNO         [3]
+                        SAIR              [0]
+
+      """)
+    return(chamada())
+     # entrada do menu de criação
+opcao = menu_add()
+while True:
+
+    if opcao == 0:
+        break
+
+    elif opcao == 1: #criação de professor
+
+        if add_professor() == "S":
+
+            Professor.criar_professor()
+
+    elif opcao == 2:
+
+        if add_disciplina() == "S":
+
+            Disciplina.criar_disciplina()
+
+    elif opcao == 3:
+
+        if add_aluno() == "S":
+
+            Aluno.criar_aluno
+
+
+
+
+message was: NameError
+Program Input: ['OKT', '1', 's']
+
+message was:
+ERROR -> message was:
+message was: NameError
+Program Input: ['professor', '1', 's']
+
+message was:
+ERROR -> message was:
+Number: 7
+c22785e3-35a4-4701-931b-b5cc38fa14cf_0
+Number: 8
+c227b62d-3919-4040-e350-1eb7e8d1d0b3_0
+StateMachine
+temp = input("celsius or fahrenheit")
+if temp == str("Celsius"):
+    c=(int(input("number")))
+    convert = (9 * c / 5 + 32)
+    print("number is " + str(celsius))
+message was: NameError
+Program Input: ['90', 'Celsius', '90']
+
+message was:
+ERROR -> message was:
+message was: NameError
+Program Input: ['Celsius']
+
+message was:
+ERROR -> message was:
+Number: 9
+c227b62d-3919-4040-e350-1eb7e8d1d0b3_1
+StateMachine
+temp = input("c or f")
+if temp == str("Celsius"):
+    c=(int(input("number")))
+    convert = (9 * c / 5 + 32)
+    print("number is" + str(c))
+message was: ValueError
+Program Input: ['Celsius', '2']
+
+message was:
+ERROR -> message was:
+message was: ValueError
+Program Input: ['Celsius', '7.5 Celsius']
+
+message was:
+ERROR -> message was:
+Number: 10
+c234f876-3f6b-4c82-dd3e-b4a8d9b1cf14_0
+StateMachine
+a=[int(i) for i in input().split()]
+print(a)
+message was: ValueError
+Program Input: ['  1 a2 3 4 b C a2 3 4 b C']
+
+message was:
+ERROR -> message was:
+message was: ValueError
+Program Input: [' 1 0 3 4 b C']
+
+message was:
+ERROR -> message was:
+Number: 11
+c234f876-3f6b-4c82-dd3e-b4a8d9b1cf14_1
+StateMachine
+n = input()
+b=[]
+for i in range(len(n)):
+    b[i] = int(input())
+
+message was: IndexError
+Program Input: ['5', '5', '5']
+
+message was:
+ERROR -> message was:
+message was: IndexError
+Program Input: []
+
+message was:
+ERROR -> message was:
+Number: 12
+c23511ff-4a55-40f7-87dd-e509015c24c2_0
+StateMachine
+#Area and perimeter program
+valid = False
+
+import math
+area = ""
+perimeter = ""
+def output(area, perimeter):
+    print("the area is ", area)
+    print("the perimeter is ", perimeter)
+
+while valid == False:
+    Shape= input("""\n1. Triangle (equalateral)
+2. Square
+3. Pentagon
+please choose an option by inputting it's number: """)
+
+    if Shape == '1':
+        print("Triangle, OK!")
+        side = int(input("please enter side length: "))
+        area = (math.sqrt(3)/4)*side**2
+        perimeter = side*3
+        output(area, perimeter)
+        input("press any key to exit")
+        valid = True
+
+    elif Shape == '2':
+        print("Square, OK!")
+        side = int(input("please enter side length: "))
+        area = side**2
+        perimeter = side*4
+        output(area, perimeter)
+        input("press any key to exit")
+        valid = True
+
+    elif Shape == '3':
+        print("Triangle, OK!")
+        side = int(input("please enter side length: "))
+        area = (1/4)*math.sqrt(5(5+(2*math.sqrt(5))))*side**2
+        perimeter = side*5
+        output(area, perimeter)
+        input("press any key to exit")
+        valid = True
+
+    else:
+        print("invalid input, please try again")
+
+
+
+message was: TypeError
+Program Input: []
+
+message was:
+ERROR -> message was:
+message was: TypeError
+Program Input: ['3']
+
+message was:
+ERROR -> message was:
+Number: 13
+c2508b9a-2e06-419d-fe8a-7fc840503dbd_0
+StateMachine
+notas=input()
+n1,n2,n3,n4=notas.split(' ')
+n1=float(n1)
+n2=float(n2)
+n3=float(n3)
+n4=float(n4)
+media=(n1*2+n2*3+n3*4+n4*1)/10
+print("Media: %.1f" % media)
+if media>=7.0:
+        print("Aluno aprovado.")
+elif media<5:
+        print("Aluno reprovado.")
+else:
+        print("Aluno em exame.")
+        rec=float(input())
+        print("Nota do exame: %.1f" % rec)
+        nova_media=(rec+media)/2
+        if nova_media>=5:
+                print("Aluno aprovado.")
+        else:
+                print("Aluno reprovado.")
+        print("Media final: %.1f" % nova_media)
+message was: ValueError
+Program Input: [' 2.0 6.5  2.0 6.5 4.0 9.0 9.0']
+
+message was:
+ERROR -> message was:
+message was: ValueError
+Program Input: ['']
+
+message was:
+ERROR -> message was:
+Number: 14
+c2508b9a-2e06-419d-fe8a-7fc840503dbd_1
+StateMachine
+elementos=input()
+n1,n2,n3=elementos.split(' ')
+n1=float(n1)
+n2=float(n2)
+n3=float(n3)
+if n1+n2>n3 and n1+n3>n2 and n2+n3>n1:
+        print("Perimetro = %2.1f" % (n1+n2+n3))
+else:
+        print("Area = %2.1f" % ((n3*(n1+n2))/2))
+message was: ValueError
+Program Input: [' 6.0 4.0 2.1 6.0 4.0 2.1']
+
+message was:
+ERROR -> message was:
+message was: ValueError
+Program Input: [' 6.0   2.1']
+
+message was:
+ERROR -> message was:
+Number: 15
+c2508b9a-2e06-419d-fe8a-7fc840503dbd_2
+StateMachine
+elementos=input()
+n1,n2=elementos.split(' ')
+n1=int(n1)
+n2=int(n2)
+if n1%n2==0 or n2%n1==0:
+        print("Sao Multiplos")
+else:
+        print("Nao sao Multiplos")
+message was: ValueError
+Program Input: [' 6  6 25']
+
+message was:
+ERROR -> message was:
+message was: ValueError
+Program Input: ['6']
+
+message was:
+ERROR -> message was:
+Number: 16
+c2508b9a-2e06-419d-fe8a-7fc840503dbd_3
+StateMachine
+elementos=input()
+n1,n2,n3=elementos.split(' ')
+n1=float(n1)
+n2=float(n2)
+n3=float(n3)
+lista=[n1,n2,n3]
+lista.sort(reverse=True)
+if lista[0]>0 and lista[1]>0 and lista[2]:
+    if lista[0]>=lista[1]+lista[2]:
+        print("NAO FORMA TRIANGULO")
+    elif lista[0]**2==(lista[1]**2+lista[2]**2):
+        print("TRIANGULO RETANGULO")
+    elif lista[0]**2>lista[1]**2+lista[2]*2:
+        print("TRIANGULO OBTUSANGULO")
+    else:
+        print("TRIANGULO ACUTANGULO")
+
+    if lista[0]==lista[1]==lista[2]:
+        print("TRIANGULO EQUILATERO")
+    else:
+        print("TRIANGULO ISOSCELES")
+
+message was: ValueError
+Program Input: ['  6.0 6.0 6.0 6.0 6.0']
+
+message was:
+ERROR -> message was:
+message was: ValueError
+Program Input: ['', '6.0', '6.0', '6.0']
+
+message was:
+ERROR -> message was:
+Number: 17
+c2508b9a-2e06-419d-fe8a-7fc840503dbd_4
+StateMachine
+elementos=input()
+n1,n2,n3=elementos.split(' ')
+n1=float(n1)
+n2=float(n2)
+n3=float(n3)
+lista=[n1,n2,n3]
+lista.sort(reverse=True)
+if lista[0]>0 and lista[1]>0 and lista[2]:
+    if lista[0]>=lista[1]+lista[2]:
+        print("NAO FORMA TRIANGULO")
+    else:
+        if lista[0]**2==(lista[1]**2+lista[2]**2):
+            print("TRIANGULO RETANGULO")
+        elif lista[0]**2>lista[1]**2+lista[2]*2:
+            print("TRIANGULO OBTUSANGULO")
+        else:
+            print("TRIANGULO ACUTANGULO")
+        if lista[0]==lista[1]==lista[2]:
+            print("TRIANGULO EQUILATERO")
+        else:
+            print("TRIANGULO ISOSCELES")
+
+
+message was: ValueError
+Program Input: ['', '5.0', '7.0', '2.0']
+
+message was:
+ERROR -> message was:
+message was: ValueError
+Program Input: ['5.0 7.0']
+
+message was:
+ERROR -> message was:
+Number: 18
+c2508b9a-2e06-419d-fe8a-7fc840503dbd_5
+StateMachine
+hora=input()
+
+n1,n2=hora.split(' ')
+
+n1=int(n1)
+
+n2=int(n2)
+
+
+
+if 1>=abs(n1-n2)>=24:
+        print("O JOGO DUROU %d HORA(S)" % (abs(n1-n2)))
+message was: ValueError
+Program Input: ['fiV 16 2']
+
+message was:
+ERROR -> message was:
+message was: ValueError
+Program Input: ['16']
+
+message was:
+ERROR -> message was:
+Number: 19
+c25a7503-3329-42e3-ed14-84549238c072_0
+StateMachine
+n = int(input("enter a number"))
+for i in range(n):
+
+    import random
+    print(random.randrange(1,n))
+
+
+message was: ValueError
+Program Input: ['5']
+
+message was:
+ERROR -> message was:
+message was: ValueError
+Program Input: ['PP9', '画']
+
+message was:
+ERROR -> message was:
+Number: 20
+c26c494c-ef5c-4f8c-cb2c-a1f1cd5f4a9f_0
+StateMachine
+print ("Time of Travel")
+destination = input('enter destination')
+distance = float(input('enter distance'))
+speed = float(input('enter speed'))
+time = distance/speed
+print(time)
+message was: ValueError
+Program Input: []
+
+message was:
+ERROR -> message was:
+message was: ValueError
+Program Input: ['Paris', '650', '9.2']
+
+message was:
+ERROR -> message was:
+Number: 21
+c26c494c-ef5c-4f8c-cb2c-a1f1cd5f4a9f_1
+StateMachine
+print ("Time of Travel")
+destination = input('enter destination')
+distance = float(input('enter distance'))
+speed = float(input('enter speed'))
+time = distance/speed
+print(time)
+message was: ValueError
+Program Input: []
+
+message was:
+ERROR -> message was:
+message was: ValueError
+Program Input: ['Memphis', '5', 'miles 5 hour']
+
+message was:
+ERROR -> message was:
+Number: 22
+c278e117-b11f-46ad-c15a-0b01e46c1f05_0
+Number: 23
+c286d0ba-9f23-4900-956f-052bc315b3e6_0
+StateMachine
+a, x, b = [], 0, []
+while True:
+    b = ([str(j) for j in input().split()])
+    if b[0] == 'end':
+        break
+    for i in range(len(b)):
+        b[i] = int(b[i])
+    a.insert(x, b)
+    x +=1
+sum = [[0 for j in range(len(a[i]))] for i in range(len(a))]
+for i in range(len(a)):
+    for j in range(len(a[i])):
+        c, d, g, h = 0, 0, 0, 0
+        if (len(a) -1) == 0:
+            g = 1
+            if (len(a[i]) - 1) == 0:
+                h = 1
+        else:
+            if j == (len(a[i]) - 1):
+                d = -3
+            if i == (len(a) - 1):
+                c = -3
+        sum[i][j] = ((a[i - 1+g][j]) + (a[i +1-g+c][j]) + (a[i][j-1+h]) + (a[i][j+1-h+d]))
+for i in range(len(sum)):
+    for j in range(len(sum[i])):
+        print(sum[i][j], end=' ')
+    print()
+
+message was: IndexError
+Program Input: ['1 a84', 'end']
+
+message was:
+ERROR -> message was:
+message was: IndexError
+Program Input: []
+
+message was:
+ERROR -> message was:
+Number: 24
+c286d0ba-9f23-4900-956f-052bc315b3e6_1
+Number: 25
+c29447e7-7f01-45b5-d27a-4e223defe030_0
+StateMachine
+x=int(input(" "))
+y=int(input(" "))
+z=x/y
+print("the division of two number is:",z)
+message was: ValueError
+Program Input: ['2']
+
+message was:
+ERROR -> message was:
+message was: ValueError
+Program Input: ['20 X5g 2']
+
+message was:
+ERROR -> message was:
+Number: 26
+c29d728e-a99b-4609-bfbd-c31ab0034f5f_0
+StateMachine
+string1 = str(input("Entrer une chaine de caractere : "))
+string2 = str(input("Entrer une chaine de caractere de meme longueur que la premiere : "))
+i = 0
+j = 0
+tour = 0
+compteur = 0
+longueur1 = len(string1)
+longueur2 = len(string2)
+while (longueur1 != longueur2):
+    print("Les chaines ne sont pas de meme longueur !")
+    string1 = str(input("Entrer une chaine de caractere : "))
+    string2 = str(input("Entrer une chaine de caractere de meme longueur que la premiere : "))
+    longueur1 = len(string1)
+    longueur2 = len(string2)
+if (longueur1 == longueur2):
+    while (tour < longueur1):
+        if (string1[i] != string2[j]):
+            if (j != longueur1):
+                j += 1
+            else:
+                tour += 1
+                j = 0
+                i += 1
+        else:
+            i += 1
+            compteur += 1
+            j = 0
+            tour += 1
+if (compteur == longueur1):
+    print(string1, "et ", string2, "sont des anagrammes")
+else:
+    print(string1, "et ", string2, "ne sont pas des anagrammes")
+message was: IndexError
+Program Input: ['test', 'tast h-x']
+
+message was:
+ERROR -> message was:
+message was: IndexError
+Program Input: ['test', 'tast wlr']
+
+message was:
+ERROR -> message was:
+Number: 27
+c2a6ec42-7cb6-4c5c-f7d9-d6d77328c293_0
+Number: 28
+c2ad8458-a21f-4310-a5bd-df5eec9660e6_0
+StateMachine
+number, t = map(int, input().split())
+
+start = list(range(1, number+1 ))
+start.reverse()
+work, goal = [], []
+count = 0
+
+def hanoi(n, start, goal, work):
+    global count
+    if n<=0:
+        return
+
+    hanoi(n-1, start, work, goal)
+
+    goal.append(start.pop())
+    count += 1
+    if count == t:
+        return
+
+
+    hanoi(n-1, work, goal, start)
+
+if __name__ == "__main__":
+    hanoi(number, start, goal, work)
+    print(count)
+    print(" ".join(list(map(str, start))) if start else "-")
+    print(" ".join(list(map(str, work)))  if work else "-")
+    print(" ".join(list(map(str, goal)))  if goal else "-")
+
+
+message was: IndexError
+Program Input: ['4', '6']
+
+message was:
+ERROR -> message was:
+message was: IndexError
+Program Input: ['- 6']
+
+message was:
+ERROR -> message was:
+Number: 29
+c2ad8458-a21f-4310-a5bd-df5eec9660e6_1
+StateMachine
+number, t = map(int, input().split())
+
+start = list(range(1, number+1 ))
+start.reverse()
+work, goal = [], []
+count = 0
+
+def hanoi(n, start, goal, work):
+    global count
+    if n<=0:
+        return
+
+    hanoi(n-1, start, work, goal)
+
+    goal.append(start.pop())
+    count += 1
+    if count == t:
+        return
+
+
+    hanoi(n-1, work, goal, start)
+
+if __name__ == "__main__":
+    hanoi(number, start, goal, work)
+    print(count)
+    #print(" ".join(list(map(str, start))) if start else "-")
+    #print(" ".join(list(map(str, work)))  if work else "-")
+    #print(" ".join(list(map(str, goal)))  if goal else "-")
+
+
+message was: IndexError
+Program Input: ['']
+
+message was:
+ERROR -> message was:
+message was: IndexError
+Program Input: ['4', '6']
+
+message was:
+ERROR -> message was:
+Number: 30
+c2ad8458-a21f-4310-a5bd-df5eec9660e6_2
+StateMachine
+number, t = map(int, input().split())
+
+start = list(range(1, number+1 ))
+start.reverse()
+work, goal = [], []
+count = 0
+
+def hanoi(n, start, goal, work):
+    global count
+    if n<=0:
+        return
+
+    hanoi(n-1, start, work, goal)
+
+    goal.append(start.pop())
+    count += 1
+    if count == t:
+        return
+
+
+    hanoi(n-1, work, goal, start)
+
+if __name__ == "__main__":
+    hanoi(number, start, goal, work)
+    print(count)
+    #print(" ".join(list(map(str, start))) if start else "-")
+    #print(" ".join(list(map(str, work)))  if work else "-")
+    #print(" ".join(list(map(str, goal)))  if goal else "-")
+
+
+message was: IndexError
+Program Input: ['__main__ 2']
+
+message was:
+ERROR -> message was:
+message was: IndexError
+Program Input: ['4', '2']
+
+message was:
+ERROR -> message was:
+Number: 31
+c2ad8458-a21f-4310-a5bd-df5eec9660e6_3
+StateMachine
+number, t = map(int, input().split())
+
+start = list(range(1, number+1 ))
+start.reverse()
+work, goal = [], []
+count = 0
+
+def hanoi(n, start, goal, work):
+    global count
+    if n>0:
+
+        hanoi(n-1, start, work, goal)
+
+        goal.append(start.pop())
+        count += 1
+        if count == t:
+            return
+
+
+        hanoi(n-1, work, goal, start)
+
+if __name__ == "__main__":
+    hanoi(number, start, goal, work)
+    print(count)
+    #print(" ".join(list(map(str, start))) if start else "-")
+    #print(" ".join(list(map(str, work)))  if work else "-")
+    #print(" ".join(list(map(str, goal)))  if goal else "-")
+
+
+message was: IndexError
+Program Input: ['']
+
+message was:
+ERROR -> message was:
+message was: IndexError
+Program Input: ['', '']
+
+message was:
+ERROR -> message was:
+Number: 32
+c2b0e5f7-1b6f-4a43-ef0c-a3bdea99781d_0
+Number: 33
+c2b39aee-d800-497a-8aee-faa64f090631_0
+StateMachine
+firstsen =input().strip().upper()
+word =input().strip().upper()
+i=0
+c=0
+for i in range(len(firstsen)):
+    firstword=firstsen.find(" ")
+    f1=0
+    word2=firstsen[f1:firstword]
+    if word2==word:
+        print('Found')
+        c=c+1
+        break
+    f1=firstword
+    firstsen=fristsen[firstword+1:len(firstsen)]
+if c==0:
+    print('Not Found')
+
+
+
+message was: NameError
+Program Input: ['c  ', 'b']
+
+message was:
+ERROR -> message was:
+message was: NameError
+Program Input: ['', 'b']
+
+message was:
+ERROR -> message was:
+Number: 34
+c2b55658-d8d6-4ce3-9497-da37e9535e9f_0
+StateMachine
+s = input()
+n = 8
+t = s[n:]
+if len(t) > 0:
+    while t[0] == "n":
+        n += 1
+        t = s[n:]
+message was: IndexError
+Program Input: ['n', 'nnnnnnnnnnnnnnnnnn']
+
+message was:
+ERROR -> message was:
+message was: IndexError
+Program Input: []
+
+message was:
+ERROR -> message was:
+Number: 35
+c2c4026d-dea0-489b-e719-30804af89291_0
+StateMachine
+x = int(input("Введите натуральное число: "))
+n = ""
+
+while x > 0:
+    y = str(x % 2)
+    n = y + n
+    x = int(x / 2)
+
+print (n)
+message was: ValueError
+Program Input: ['20,2', '20,2']
+
+message was:
+ERROR -> message was:
+message was: ValueError
+Program Input: ['3']
+
+message was:
+ERROR -> message was:
+Number: 36
+c2ca9d87-1823-4528-a0fe-b2519d66dfaa_0
+StateMachine
+nome = input().upper()
+funcionarios_cadastrados = {'ANA':1111, 'CAIO':2222,
+'JEFERSON':3333, 'NATHALIA':4444, 'NOME':5555}
+if nome.upper() in funcionarios_cadastrados:
+    pass
+elif nome.uper() not in funcionarios_cadastrados:
+    nome = input().lower()
+    CPF = int(input())
+    funcionarios_cadastrados[CPF] = nome
+
+message was: AttributeError
+Program Input: []
+
+message was:
+ERROR -> message was:
+message was: AttributeError
+Program Input: ['pedro JEFERSON']
+
+message was:
+ERROR -> message was:
+Number: 37
+c2d45b0b-3fa3-4eed-d606-38d4b14d1a2d_0
+StateMachine
+y = int(input())
+x = int(input())
+print=x^3+y^2
+message was: ValueError
+Program Input: ['1']
+
+message was:
+ERROR -> message was:
+message was: ValueError
+Program Input: []
+
+message was:
+ERROR -> message was:
+Number: 38
+c2d45b0b-3fa3-4eed-d606-38d4b14d1a2d_1
+StateMachine
+y = int(input())
+x = int(input())
+print=x^3+y^2
+message was: ValueError
+Program Input: ['7']
+
+message was:
+ERROR -> message was:
+message was: ValueError
+Program Input: []
+
+message was:
+ERROR -> message was:
+Number: 39
+c2d5f177-dfaf-4d90-a298-e7fdde8a3a9b_0
+Number: 40
+c2dd44e9-d115-4404-d297-f4df8535ba90_0
+StateMachine
+dado = int(input ())
+formula1 = (4*3.1416*dado**2)
+formula2 = ((4*3.1416*dado**3)/3)
+print (formula1)
+print (formula2)
+message was: ValueError
+Program Input: ['4']
+
+message was:
+ERROR -> message was:
+message was: ValueError
+Program Input: ['0']
+
+message was:
+ERROR -> message was:
+Number: 41
+c2e022fe-ac48-4bd9-9d22-eded6a88b076_0
+StateMachine
+def main ():
+    print("\nThe output will be a factorial.\n")
+    print("Enter an integer:")
+    while True:
+        number = int( input ("") )
+        if number > 0 :
+            number = int ( number )
+            factorial  = 1
+            startValue = 0
+            while True:
+                if startValue == number:
+                    print ("\nThe factorial of", number ,"is", factorial,".\n")
+                    break
+                else:
+                    for i in range ( 1,number + 1 ):
+                        if startValue < number :
+                            factorial = factorial * i
+                            startValue = startValue + 1
+                        else:
+                            break
+            break
+        elif number < 0:  # check if number is negative
+            print ("\nFactorials do not exist for negative numbers.\n")
+            break
+        elif number == 0:   # check if number is positive
+            print ("\nThe  factorial of 0 is 1.\n")
+            break
+        else:
+            print(
+"""
+Error----> use integers only ( whole numbers )
+
+Enter an integer:
+"""
+)
+main ()
+message was: ValueError
+Program Input: ['9']
+
+message was:
+ERROR -> message was:
+message was: ValueError
+Program Input: ['is', '1.9']
+
+message was:
+ERROR -> message was:
+Number: 42
+c2e022fe-ac48-4bd9-9d22-eded6a88b076_1
+StateMachine
+def main ():
+    print("\nThe output will be a factorial.\n")
+    print("Enter an integer:")
+    while True:
+        number = int( input ("") )
+        if number > 0 :
+            number = int ( number )
+            factorial  = 1
+            startValue = 0
+            while True:
+                if startValue == number:
+                    print ("\nThe factorial of", number ,"is", factorial,".\n")
+                    break
+                else:
+                    for i in range ( 1,number + 1 ):
+                        if startValue < number :
+                            factorial = factorial * i
+                            startValue = startValue + 1
+                        else:
+                            break
+            break
+        elif number < 0:  # check if number is negative
+            print ("\nFactorials do not exist for negative numbers.\n")
+            break
+        elif number == 0:   # check if number is positive
+            print ("\nThe  factorial of 0 is 1.\n")
+            break
+        else:
+            print(
+"""
+Error----> use integers only ( whole numbers )
+
+Enter an integer:
+"""
+)
+main ()
+message was: ValueError
+Program Input: ['3']
+
+message was:
+ERROR -> message was:
+message was: ValueError
+Program Input: ['7']
+
+message was:
+ERROR -> message was:
+Number: 43
+c2e7ce47-aa4d-426d-832f-4ffc98d6b2c0_0
+StateMachine
+zoznam = []
+
+while True:
+    a=int(input("Zadaj číslo a 0 pre ukončenie"))
+    if a==0 or a in zoznam:
+        break
+    zoznam.append(a)
+
+k=int(input("Zadaj k-kolky najmensi sucet"))
+
+zoznam=sorted(zoznam)
+vysledok = 0
+mensich=0
+
+def generuj(pocet, odprvku, zatial_sucet):
+    global zoznam, mensich, vysledok
+    print("vyvolanie pocet=", pocet, " odprvku=", odprvku, "zatial_sucet=", zatial_sucet)
+    for i in range(odprvku, len(zoznam)):
+        print("i=", i, "zoznam_i=", zoznam[i])
+        if pocet > 1 :
+            # stale to nie je posledny clen - vyvolam rekurzivne seba
+            generuj( pocet - 1, i+1, zatial_sucet + zoznam[i] )
+        else :
+            # tak toto uz je posledny clen. Urobim vyhodnotenie
+            novy_sucet = zatial_sucet + zoznam[i]
+            print( "novy_sucet=", novy_sucet)
+            if mensich < k :
+                # zatial nemam dost mensich vysledkov
+                mensich = mensich + 1
+                # musim nastavit najvyssi vysledok
+                if vysledok < novy_sucet :
+                   vysledok = novy_sucet
+                print("mensich=", mensich,"vysledok=", vysledok)
+            else :
+                # uz som nasiel potrebny pocet mensich
+                if vysledok >= novy_sucet :
+                   vysledok = novy_sucet
+                print("vysledok=", vysledok)
+
+generuj(3, 0, 0)
+print("KONIEC mensich=", mensich, " vysledok=", vysledok)
+message was: ValueError
+Program Input: ['5', '6', '5', '4', '8', '2', '3', 'f']
+
+message was:
+ERROR -> message was:
+message was: ValueError
+Program Input: ['5', '6', '4', '8', '2', '3', '3']
+
+message was:
+ERROR -> message was:
+Number: 44
+c2f40b4e-492f-4dd4-edb9-21d174e46d2b_0
+StateMachine
+def convertbinary():
+    binarystring = input(str("Enter a binary string value. Example, 11111111."))
+    x = int(binarystring, 2)
+    return x
+
+convertbinary()
+
+message was: ValueError
+Program Input: ['y4G', "'1110101"]
+
+message was:
+ERROR -> message was:
+message was: ValueError
+Program Input: ['4']
+
+message was:
+ERROR -> message was:

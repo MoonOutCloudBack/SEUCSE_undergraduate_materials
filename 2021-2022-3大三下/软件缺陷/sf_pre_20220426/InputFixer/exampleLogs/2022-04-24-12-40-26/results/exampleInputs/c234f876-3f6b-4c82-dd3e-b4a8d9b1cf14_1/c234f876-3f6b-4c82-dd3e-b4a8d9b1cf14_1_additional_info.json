@@ -1,0 +1,11 @@
+{
+    "ip": "85.89.112.179",
+    "ErrorMessage": "Traceback (most recent call last):\n  File \"temp2017.py\", line 4, in <module>\n    b[i] = int(input())\nIndexError: list assignment index out of range\n",
+    "LastIsEmpty": false,
+    "ErrorType": "IndexError",
+    "CoverageInfo": [4, 0, 2, 1, 83, "3->exit"],
+    "CorrectInputs": [[[""], 1503504138]],
+    "BadInput": ["5", "5"],
+    "UniqueId": "c234f876-3f6b-4c82-dd3e-b4a8d9b1cf14_1",
+    "TimeStamp": 1503504148
+}

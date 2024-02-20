@@ -1,0 +1,10 @@
+{"ip": "190.210.225.115",
+    "ErrorMessage": "Traceback (most recent call last):\n  File \"temp2017.py\", line 11, in <module>\n    a.numerotemp=int(input(\"ingrese el numero de tempo\"))\nValueError: invalid literal for int() with base 10: ''\n",
+    "LastIsEmpty": true,
+    "ErrorType": "ValueError",
+    "CoverageInfo": [12, 1, 2, 1, 86, "14,", "8->14"],
+    "CorrectInputs": [[["33", "44", "er", "33", "55", "yyyy", "33", "5", "eee"], 1497050621]],
+    "BadInput": ["44", "33", "ytryrt", "44", ""],
+    "UniqueId": "c2a6ec42-7cb6-4c5c-f7d9-d6d77328c293_0",
+    "TimeStamp": 1497050524
+}

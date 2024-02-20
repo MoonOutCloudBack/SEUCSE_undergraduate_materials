@@ -1,0 +1,105 @@
+"sid"	"sname"	"sex"	"age"	"year"	"gpa"
+1	"Jacobs, T."	"m"	29	5	3.60
+2	"Pierson, E."	"m"	32	5	3.50
+3	"Zeene, Ben N."	"m"	21	5	3.90
+4	"Sulfate, Barry M."	"m"	19	2	2.80
+5	"Form, Clara O."	"f"	18	1	3.30
+6	"Scott, Kim J."	"m"	20	1	3.80
+7	"Sather, Roberto B."	"m"	22	4	2.20
+8	"Stanley, Leotha T."	"m"	21	3	3.60
+9	"Smith, Joyce A."	"f"	21	4	2.00
+10	"Jones, David S."	"m"	19	2	3.50
+11	"Paul, Mary W."	"f"	23	5	3.60
+12	"Soong, V."	"f"	24	5	3.50
+13	"Kellerman, S."	"f"	21	3	2.90
+14	"Cheong, R."	"m"	25	4	3.00
+15	"Borchart, Sandra L."	"f"	26	5	3.90
+16	"Alsberg, David J."	"m"	25	5	3.50
+17	"Thorton, James Q."	"m"	28	4	2.70
+18	"Gooch"	"m"	26	1	1.40
+19	"Smith, L."	"m"	43	4	0.70
+20	"Korpel, E."	"f"	19	3	3.50
+21	"Surk, K."	"m"	23	2	2.50
+22	"Emile, R."	"m"	18	1	2.00
+23	"Bomber, C."	"f"	22	4	3.20
+24	"Carter, Jimmy"	"m"	56	5	3.50
+25	"Kissinger, Henry"	"m"	58	5	3.40
+26	"Ford, Gerald"	"m"	60	5	3.50
+27	"Anderson, P."	"f"	18	1	3.20
+28	"Austin, G."	"m"	25	5	3.50
+29	"Hamilton, S."	"m"	21	3	2.80
+30	"Baker, C."	"f"	18	1	3.50
+31	"Andrews, R."	"m"	19	2	2.80
+32	"Liu, Huihusan"	"m"	29	5	3.90
+33	"Chao, Tsechih"	"f"	23	5	3.60
+34	"Kasten, Norman L."	"m"	23	2	2.50
+35	"Mathews, John W."	"m"	29	5	3.60
+36	"Burroughs, Susan S."	"f"	18	1	3.00
+37	"Dunbar, D."	"m"	30	5	3.40
+38	"Auen, B."	"m"	21	3	2.70
+39	"Shoemaker, A."	"f"	22	4	3.50
+40	"Rosemeyer, S."	"f"	21	3	2.90
+41	"Fisher, C."	"f"	22	4	3.50
+42	"Trude, T."	"m"	19	2	2.90
+43	"Ksar, J."	"m"	20	3	3.40
+44	"Moeri, S."	"f"	20	4	3.20
+45	"June, Granson"	"f"	18	1	3.10
+46	"Micheal, Zadicki T."	"m"	22	2	2.70
+47	"Roger, Blotter N."	"m"	21	3	1.90
+48	"Natividad, A."	"f"	25	5	4.00
+49	"Villa-lobos, M."	"m"	47	5	3.70
+50	"Moomchi, B."	"m"	32	5	3.50
+51	"Jetplane, Leaving O."	"m"	30	1	0.00
+52	"Fy, Clara I."	"f"	18	2	2.00
+53	"Atny, Mary H."	"f"	26	5	3.80
+54	"Maximillian"	"m"	98	5	3.00
+55	"Glitch, R."	"m"	19	1	2.80
+56	"Starry, J."	"f"	22	4	3.30
+57	"Hiemerschmitz, A."	"f"	19	1	2.70
+58	"Marshmallton"	"m"	20	3	3.00
+59	"Ziebart, F."	"m"	22	4	1.80
+60	"Calcmity, J."	"f"	23	3	2.60
+61	"Kennedy, Ed"	"m"	55	3	2.30
+62	"Moses, A."	"m"	18	1	3.20
+63	"Kool, Joseph F."	"m"	35	5	3.70
+64	"Fred, Edwin B."	"m"	80	5	4.00
+65	"Ripper, Jack T."	"m"	18	1	0.50
+66	"Altenhaus, Stuart"	"m"	21	4	2.80
+67	"Altenhaus, Gloria"	"f"	22	5	4.00
+68	"Crist, J."	"m"	23	4	3.00
+69	"Heilskov, G."	"m"	23	4	2.50
+70	"Caucutt, B."	"m"	24	5	3.00
+71	"Mark, B."	"m"	24	4	3.60
+72	"Barnes, J."	"m"	45	5	2.30
+73	"Quarnty, G."	"f"	20	2	4.00
+74	"Andrus, J."	"f"	21	3	3.70
+75	"Jones, A."	"f"	23	5	3.20
+76	"Zorhoff, C."	"m"	20	3	3.00
+77	"Paull, Thomas H."	"m"	23	4	2.60
+78	"Cool, J."	"m"	18	2	2.60
+79	"Evert, Chris"	"f"	21	4	3.90
+80	"Connors, Jimmy"	"m"	25	1	0.20
+81	"Smith, Ike Z."	"m"	33	1	1.10
+82	"News, Nightly"	"m"	15	1	1.90
+83	"Jones, Ivan L."	"m"	55	5	3.50
+84	"Smith, R."	"m"	19	3	2.70
+85	"Mayer, N."	"f"	21	5	3.50
+86	"Gonring, J."	"m"	21	4	3.70
+87	"Mueller, D."	"m"	20	3	3.30
+88	"Bates, M."	"m"	22	4	3.30
+89	"Longlastname, A."	"f"	99	5	4.00
+90	"Zappa, F."	"m"	16	4	4.00
+91	"Ghandi, I."	"f"	78	1	3.50
+92	"Kirk, J."	"m"	34	5	2.20
+93	"Andermanthenol, K."	"m"	26	5	3.70
+94	"Uoiea, Z."	"f"	19	2	3.30
+95	"Grzlbltz, Q."	"m"	43	5	2.50
+96	"Birch, M."	"f"	23	5	3.50
+97	"Morgan, D."	"m"	18	1	3.50
+98	"Taylor, R."	"m"	20	3	2.80
+99	"Jones, J."	"f"	21	1	1.10
+100	"Gringo, C."	"m"	25	5	2.90
+101	"Davis, Scott P."	"m"	19	3	3.70
+102	"Bates, Michael L."	"m"	22	4	3.40
+103	"Kaisler, Janet M."	"f"	21	4	3.50
+104	"Baskett, Wayse T."	"m"	23	3	2.10

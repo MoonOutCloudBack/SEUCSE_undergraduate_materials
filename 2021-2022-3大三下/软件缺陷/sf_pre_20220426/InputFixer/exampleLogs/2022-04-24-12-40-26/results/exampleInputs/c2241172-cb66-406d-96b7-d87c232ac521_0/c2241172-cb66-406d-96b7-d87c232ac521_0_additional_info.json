@@ -1,0 +1,10 @@
+{
+    "ip": "177.73.247.201",
+    "ErrorMessage": "Traceback (most recent call last):\n  File \"temp2017.py\", line 2, in <module>\n    nota1=float(input(\"Informe a nota da primeira prova: \"))\nValueError: could not convert string to float: '13,8'\n",
+    "LastIsEmpty": false,
+    "ErrorType": "ValueError",
+    "CoverageInfo": [11, 9, 0, 0, 18, "3-11"],
+    "CorrectInputs": [[["Roberto", "13.8", "0"], 1501223657], [["xxx", "14", "0"], 1501223685], [["xxx", "4.9", "0"], 1501223717], [["ggg", "9.8", "0"], 1501223748], [["xxx", "10", "0"], 1501223779]],
+    "BadInput": ["Roberto", "13,8"],
+    "UniqueId": "c2241172-cb66-406d-96b7-d87c232ac521_0",
+    "TimeStamp": 1501223614}

@@ -1,0 +1,228 @@
+{'MaxNumProbes': 6, 'MaxNumFix': 1, 'UseCoverage': 2}File num 1 
+ID = c208ff73-140f-4384-dbc9-264a6eb77ca3_0
+NEXT SCENARIO
+{"ip": "2600:8801:2d10:ac00:938:cc3c:1430:c194", "ErrorMessage": "Traceback (most recent call last):\n  File \"temp2017.py\", line 8, in <module>\n    print(\"They add up to: \" + x)  \nTypeError: Can't convert 'int' object to str implicitly\n", "LastIsEmpty": false, "ErrorType": "TypeError", "CoverageInfo": [8, 1, 4, 2, 75, "6,", "5->6,", "7->exit"], "CorrectInputs": [[["79", "77"], 1491212110]], "BadInput": ["33", "22"], "UniqueId": "c208ff73-140f-4384-dbc9-264a6eb77ca3_0", "TimeStamp": 1491212158}
+[{}, {}]
+
+File num 2 
+ID = c2100a18-fce7-4bd3-d996-c2a809d6144d_0
+NEXT SCENARIO
+{"ip": "186.211.178.114", "ErrorMessage": "Traceback (most recent call last):\n  File \"temp2017.py\", line 6, in <module>\n    linha.append(int(input()))\nValueError: invalid literal for int() with base 10: '0,1,0,0,1,0,0,1,0'\n", "LastIsEmpty": false, "ErrorType": "ValueError", "CoverageInfo": [13, 7, 10, 2, 35, "7-13,", "3->8,", "5->7"], "CorrectInputs": [[["0", "1", "0", "0", "1", "1", "0", "1", "0"], 1510294457]], "BadInput": ["0,1,0,0,1,0,0,1,0"], "UniqueId": "c2100a18-fce7-4bd3-d996-c2a809d6144d_0", "TimeStamp": 1510294324}
+[{}, {}]
+
+File num 3 
+ID = c2125f8e-a33d-407a-848a-a822abfe683a_0
+NEXT SCENARIO
+{"ip": "94.140.226.152", "ErrorMessage": "Traceback (most recent call last):\n  File \"temp2017.py\", line 24, in <module>\n    a [i][j] = N\nIndexError: list index out of range\n", "LastIsEmpty": false, "ErrorType": "IndexError", "CoverageInfo": [56, 7, 30, 10, 78, "16,", "27,", "38,", "49,", "54-56,", "11->55,", "12->23,", "15->16,", "23->34,", "26->27,", "34->45,", "37->38,", "45->11,", "48->49,", "50->54"], "CorrectInputs": [[["5"], 1490678373]], "BadInput": ["3"], "UniqueId": "c2125f8e-a33d-407a-848a-a822abfe683a_0", "TimeStamp": 1490678390}
+[{}, {}]
+
+File num 4 
+ID = c2176544-f954-47a5-c0fc-9bcd7c6585cb_0
+NEXT SCENARIO
+{"ip": "2604:2000:704c:fa00:938:26ab:64e8:79e6", "ErrorMessage": "Traceback (most recent call last):\n  File \"temp2017.py\", line 4, in <module>\n    ele_to_add = int(input())\nValueError: invalid literal for int() with base 10: '1 2'\n", "LastIsEmpty": false, "ErrorType": "ValueError", "CoverageInfo": [6, 2, 2, 1, 62, "5-7,", "3->7"], "CorrectInputs": [[["2", "1", "2"], 1510136491]], "BadInput": ["2", "1 2"], "UniqueId": "c2176544-f954-47a5-c0fc-9bcd7c6585cb_0", "TimeStamp": 1510136518}
+[{}, {}]
+
+File num 5 
+ID = c2241172-cb66-406d-96b7-d87c232ac521_0
+NEXT SCENARIO
+{"ip": "177.73.247.201", "ErrorMessage": "Traceback (most recent call last):\n  File \"temp2017.py\", line 2, in <module>\n    nota1=float(input(\"Informe a nota da primeira prova: \"))\nValueError: could not convert string to float: '13,8'\n", "LastIsEmpty": false, "ErrorType": "ValueError", "CoverageInfo": [11, 9, 0, 0, 18, "3-11"], "CorrectInputs": [[["Roberto", "13.8", "0"], 1501223657], [["xxx", "14", "0"], 1501223685], [["xxx", "4.9", "0"], 1501223717], [["ggg", "9.8", "0"], 1501223748], [["xxx", "10", "0"], 1501223779]], "BadInput": ["Roberto", "13,8"], "UniqueId": "c2241172-cb66-406d-96b7-d87c232ac521_0", "TimeStamp": 1501223614}
+[{}, {}]
+
+File num 6 
+ID = c2245688-5be6-4b62-df77-442f47f554f7_0
+NEXT SCENARIO
+{"ip": "179.180.153.58", "ErrorMessage": "Traceback (most recent call last):\n  File \"temp2017.py\", line 65, in <module>\n    Professor.criar_professor()\nNameError: name 'Professor' is not defined\n", "LastIsEmpty": false, "ErrorType": "NameError", "CoverageInfo": [42, 21, 20, 3, 39, "5,", "8,", "11,", "17,", "20,", "23,", "26,", "30-36,", "59,", "67-77,", "58->59,", "61->67,", "63->58"], "CorrectInputs": [[["0"], 1501497103]], "BadInput": ["1", "s"], "UniqueId": "c2245688-5be6-4b62-df77-442f47f554f7_0", "TimeStamp": 1501497974}
+[{}, {}]
+
+File num 7 
+ID = c227b62d-3919-4040-e350-1eb7e8d1d0b3_0
+NEXT SCENARIO
+{"ip": "198.169.140.30", "ErrorMessage": "Traceback (most recent call last):\n  File \"temp2017.py\", line 5, in <module>\n    print(\"number is \" + str(celsius))\nNameError: name 'celsius' is not defined\n", "LastIsEmpty": false, "ErrorType": "NameError", "CoverageInfo": [5, 0, 2, 1, 86, "2->exit"], "CorrectInputs": [[["celsius"], 1489804118]], "BadInput": ["Celsius", "90"], "UniqueId": "c227b62d-3919-4040-e350-1eb7e8d1d0b3_0", "TimeStamp": 1489804156}
+[{}, {}]
+
+File num 8 
+ID = c227b62d-3919-4040-e350-1eb7e8d1d0b3_1
+NEXT SCENARIO
+{"ip": "198.169.140.30", "ErrorMessage": "Traceback (most recent call last):\n  File \"temp2017.py\", line 3, in <module>\n    c=(int(input(\"number\")))\nValueError: invalid literal for int() with base 10: '7.5'\n", "LastIsEmpty": false, "ErrorType": "ValueError", "CoverageInfo": [5, 2, 2, 1, 57, "4-5,", "2->exit"], "CorrectInputs": [[["Celsius", "87"], 1489804305]], "BadInput": ["Celsius", "7.5"], "UniqueId": "c227b62d-3919-4040-e350-1eb7e8d1d0b3_1", "TimeStamp": 1489804237}
+[{}, {}]
+
+File num 9 
+ID = c234f876-3f6b-4c82-dd3e-b4a8d9b1cf14_0
+NEXT SCENARIO
+{"ip": "85.89.112.179", "ErrorMessage": "Traceback (most recent call last):\n  File \"temp2017.py\", line 1, in <module>\n    a=[int(i) for i in input().split()]\n  File \"temp2017.py\", line 1, in <listcomp>\n    a=[int(i) for i in input().split()]\nValueError: invalid literal for int() with base 10: 'a2'\n", "LastIsEmpty": false, "ErrorType": "ValueError", "CoverageInfo": [2, 1, 2, 1, 50, "2,", "1->2"], "CorrectInputs": [[["1 2 3 4"], 1503498701]], "BadInput": [" 1 a2 3 4 b C"], "UniqueId": "c234f876-3f6b-4c82-dd3e-b4a8d9b1cf14_0", "TimeStamp": 1503498684}
+[{}, {}]
+
+File num 10 
+ID = c234f876-3f6b-4c82-dd3e-b4a8d9b1cf14_1
+NEXT SCENARIO
+{"ip": "85.89.112.179", "ErrorMessage": "Traceback (most recent call last):\n  File \"temp2017.py\", line 4, in <module>\n    b[i] = int(input())\nIndexError: list assignment index out of range\n", "LastIsEmpty": false, "ErrorType": "IndexError", "CoverageInfo": [4, 0, 2, 1, 83, "3->exit"], "CorrectInputs": [[[""], 1503504138]], "BadInput": ["5", "5"], "UniqueId": "c234f876-3f6b-4c82-dd3e-b4a8d9b1cf14_1", "TimeStamp": 1503504148}
+[{}, {}]
+
+File num 11 
+ID = c23511ff-4a55-40f7-87dd-e509015c24c2_0
+NEXT SCENARIO
+{"ip": "193.63.72.17", "ErrorMessage": "Traceback (most recent call last):\n  File \"temp2017.py\", line 38, in <module>\n    area = (1/4)*math.sqrt(5(5+(2*math.sqrt(5))))*side**2\nTypeError: 'int' object is not callable\n", "LastIsEmpty": false, "ErrorType": "TypeError", "CoverageInfo": [34, 21, 8, 4, 40, "8-9,", "18-24,", "27-33,", "39-45,", "11->exit,", "17->18,", "26->27,", "35->45"], "CorrectInputs": [[["1", "3", "d"], 1506024629], [["2", "4", "2"], 1506024694]], "BadInput": ["3", "5"], "UniqueId": "c23511ff-4a55-40f7-87dd-e509015c24c2_0", "TimeStamp": 1506024718}
+[{}, {}]
+
+File num 12 
+ID = c2508b9a-2e06-419d-fe8a-7fc840503dbd_0
+NEXT SCENARIO
+{"ip": "189.35.185.52", "ErrorMessage": "Traceback (most recent call last):\n  File \"temp2017.py\", line 2, in <module>\n    n1,n2,n3,n4=notas.split(' ')\nValueError: too many values to unpack (expected 4)\n", "LastIsEmpty": false, "ErrorType": "ValueError", "CoverageInfo": [20, 18, 6, 0, 8, "3-22"], "CorrectInputs": [[["2.0 4.0 7.5 8.0", "6.4"], 1508380373], [["2.0 6.5 4.0 9.0"], 1508380434]], "BadInput": [" 2.0 6.5 4.0 9.0"], "UniqueId": "c2508b9a-2e06-419d-fe8a-7fc840503dbd_0", "TimeStamp": 1508380412}
+[{}, {}]
+
+File num 13 
+ID = c2508b9a-2e06-419d-fe8a-7fc840503dbd_1
+NEXT SCENARIO
+{"ip": "189.35.185.52", "ErrorMessage": "Traceback (most recent call last):\n  File \"temp2017.py\", line 2, in <module>\n    n1,n2,n3=elementos.split(' ')\nValueError: too many values to unpack (expected 3)\n", "LastIsEmpty": false, "ErrorType": "ValueError", "CoverageInfo": [8, 6, 2, 0, 20, "3-9"], "CorrectInputs": [[["6.0 4.0 2.0"], 1508384342], [["6.0 4.0 2.1"], 1508384498]], "BadInput": [" 6.0 4.0 2.1"], "UniqueId": "c2508b9a-2e06-419d-fe8a-7fc840503dbd_1", "TimeStamp": 1508384379}
+[{}, {}]
+
+File num 14 
+ID = c2508b9a-2e06-419d-fe8a-7fc840503dbd_2
+NEXT SCENARIO
+{"ip": "189.35.185.52", "ErrorMessage": "Traceback (most recent call last):\n  File \"temp2017.py\", line 2, in <module>\n    n1,n2=elementos.split(' ')\nValueError: too many values to unpack (expected 2)\n", "LastIsEmpty": false, "ErrorType": "ValueError", "CoverageInfo": [7, 5, 2, 0, 22, "3-8"], "CorrectInputs": [[["6 24"], 1508385050], [["6 25"], 1508385074]], "BadInput": [" 6 25"], "UniqueId": "c2508b9a-2e06-419d-fe8a-7fc840503dbd_2", "TimeStamp": 1508385061}
+[{}, {}]
+
+File num 15 
+ID = c2508b9a-2e06-419d-fe8a-7fc840503dbd_3
+NEXT SCENARIO
+{"ip": "189.35.185.52", "ErrorMessage": "Traceback (most recent call last):\n  File \"temp2017.py\", line 2, in <module>\n    n1,n2,n3=elementos.split(' ')\nValueError: too many values to unpack (expected 3)\n", "LastIsEmpty": false, "ErrorType": "ValueError", "CoverageInfo": [18, 16, 10, 0, 7, "3-21"], "CorrectInputs": [[["6.0 6.0 10.0"], 1508386060], [["6.0 6.0 6.0"], 1508386096], [["5.0 7.0 2.0"], 1508386130]], "BadInput": [" 6.0 6.0 6.0"], "UniqueId": "c2508b9a-2e06-419d-fe8a-7fc840503dbd_3", "TimeStamp": 1508386080}
+[{}, {}]
+
+File num 16 
+ID = c2508b9a-2e06-419d-fe8a-7fc840503dbd_4
+NEXT SCENARIO
+{"ip": "189.35.185.52", "ErrorMessage": "Traceback (most recent call last):\n  File \"temp2017.py\", line 2, in <module>\n    n1,n2,n3=elementos.split(' ')\nValueError: too many values to unpack (expected 3)\n", "LastIsEmpty": false, "ErrorType": "ValueError", "CoverageInfo": [18, 16, 10, 0, 7, "3-21"], "CorrectInputs": [[["5.0 7.0 2.0"], 1508386251], [["6.0 8.0 10.0"], 1508386286]], "BadInput": [" 5.0 7.0 2.0"], "UniqueId": "c2508b9a-2e06-419d-fe8a-7fc840503dbd_4", "TimeStamp": 1508386227}
+[{}, {}]
+
+File num 17 
+ID = c2508b9a-2e06-419d-fe8a-7fc840503dbd_5
+NEXT SCENARIO
+{"ip": "189.35.185.52", "ErrorMessage": "Traceback (most recent call last):\n  File \"temp2017.py\", line 3, in <module>\n    n1,n2=hora.split(' ')\nValueError: too many values to unpack (expected 2)\n", "LastIsEmpty": false, "ErrorType": "ValueError", "CoverageInfo": [6, 4, 2, 0, 25, "5-12"], "CorrectInputs": [[["16 2"], 1508387129]], "BadInput": [" 16 2"], "UniqueId": "c2508b9a-2e06-419d-fe8a-7fc840503dbd_5", "TimeStamp": 1508387119}
+[{}, {}]
+
+File num 18 
+ID = c25a7503-3329-42e3-ed14-84549238c072_0
+NEXT SCENARIO
+{"ip": "110.148.145.223", "ErrorMessage": "Traceback (most recent call last):\n  File \"temp2017.py\", line 1, in <module>\n    n = int(input(\"enter a number\"))\nValueError: invalid literal for int() with base 10: '\u753b'\n", "LastIsEmpty": false, "ErrorType": "ValueError", "CoverageInfo": [4, 3, 2, 0, 17, "2-5"], "CorrectInputs": [[["999"], 1509788540], [["995"], 1509788557], [["495"], 1509788569], [["333"], 1509788581], [["200"], 1509788590], [["250"], 1509788603], [["300"], 1509788612], [["320"], 1509788624], [["325"], 1509788634], [["330"], 1509788643], [["332"], 1509788652]], "BadInput": ["\u753b"], "UniqueId": "c25a7503-3329-42e3-ed14-84549238c072_0", "TimeStamp": 1509788783}
+[{}, {}]
+
+File num 19 
+ID = c26c494c-ef5c-4f8c-cb2c-a1f1cd5f4a9f_0
+NEXT SCENARIO
+{"ip": "64.50.95.2", "ErrorMessage": "Traceback (most recent call last):\n  File \"temp2017.py\", line 4, in <module>\n    speed = float(input('enter speed'))\nValueError: could not convert string to float: 'hour'\n", "LastIsEmpty": false, "ErrorType": "ValueError", "CoverageInfo": [6, 2, 0, 0, 67, "5-6"], "CorrectInputs": [[["Memphis", "6", "30"], 1484364741]], "BadInput": ["Paris", "650", "hour"], "UniqueId": "c26c494c-ef5c-4f8c-cb2c-a1f1cd5f4a9f_0", "TimeStamp": 1484364551}
+[{}, {}]
+
+File num 20 
+ID = c26c494c-ef5c-4f8c-cb2c-a1f1cd5f4a9f_1
+NEXT SCENARIO
+{"ip": "64.50.95.2", "ErrorMessage": "Traceback (most recent call last):\n  File \"temp2017.py\", line 4, in <module>\n    speed = float(input('enter speed'))\nValueError: could not convert string to float: 'miles per hour'\n", "LastIsEmpty": false, "ErrorType": "ValueError", "CoverageInfo": [6, 2, 0, 0, 67, "5-6"], "CorrectInputs": [[["Memphis", "6", "30"], 1484364741]], "BadInput": ["Memphis", "5", "miles per hour"], "UniqueId": "c26c494c-ef5c-4f8c-cb2c-a1f1cd5f4a9f_1", "TimeStamp": 1484364704}
+[{}, {}]
+
+File num 21 
+ID = c286d0ba-9f23-4900-956f-052bc315b3e6_0
+NEXT SCENARIO
+{"ip": "176.119.118.128", "ErrorMessage": "Traceback (most recent call last):\n  File \"temp2017.py\", line 23, in <module>\n    sum[i][j] = ((a[i - 1+g][j]) + (a[i +1-g+c][j]) + (a[i][j-1+h]) + (a[i][j+1-h+d]))\nIndexError: list index out of range\n", "LastIsEmpty": false, "ErrorType": "IndexError", "CoverageInfo": [26, 9, 24, 4, 58, "17-22,", "24-27,", "11->24,", "12->11,", "14->19,", "16->17"], "CorrectInputs": [[["1", "end"], 1513565154]], "BadInput": ["1 1", "end"], "UniqueId": "c286d0ba-9f23-4900-956f-052bc315b3e6_0", "TimeStamp": 1513565214}
+[{}, {}]
+
+File num 22 
+ID = c29447e7-7f01-45b5-d27a-4e223defe030_0
+NEXT SCENARIO
+{"ip": "210.212.249.130", "ErrorMessage": "Traceback (most recent call last):\n  File \"temp2017.py\", line 1, in <module>\n    x=int(input(\" \"))\nValueError: invalid literal for int() with base 10: '20  2'\n", "LastIsEmpty": false, "ErrorType": "ValueError", "CoverageInfo": [4, 3, 0, 0, 25, "2-4"], "CorrectInputs": [[["20", "2"], 1512477189]], "BadInput": ["20  2"], "UniqueId": "c29447e7-7f01-45b5-d27a-4e223defe030_0", "TimeStamp": 1512476994}
+[{}, {}]
+
+File num 23 
+ID = c29d728e-a99b-4609-bfbd-c31ab0034f5f_0
+NEXT SCENARIO
+{"ip": "37.71.247.66", "ErrorMessage": "Traceback (most recent call last):\n  File \"temp2017.py\", line 17, in <module>\n    if (string1[i] != string2[j]):\nIndexError: string index out of range\n", "LastIsEmpty": false, "ErrorType": "IndexError", "CoverageInfo": [29, 11, 12, 4, 59, "10-14,", "21-23,", "29-32,", "9->10,", "15->29,", "16->29,", "18->21"], "CorrectInputs": [[["test", "test"], 1507755773]], "BadInput": ["test", "tast"], "UniqueId": "c29d728e-a99b-4609-bfbd-c31ab0034f5f_0", "TimeStamp": 1507755820}
+[{}, {}]
+
+File num 24 
+ID = c2ad8458-a21f-4310-a5bd-df5eec9660e6_0
+NEXT SCENARIO
+{"ip": "4.28.70.34", "ErrorMessage": "Traceback (most recent call last):\n  File \"temp2017.py\", line 24, in <module>\n    hanoi(number, start, goal, work)\n  File \"temp2017.py\", line 21, in hanoi\n    hanoi(n-1, work, goal, start)\n  File \"temp2017.py\", line 15, in hanoi\n    goal.append(start.pop())\nIndexError: pop from empty list\n", "LastIsEmpty": false, "ErrorType": "IndexError", "CoverageInfo": [20, 4, 6, 1, 81, "25-28,", "23->exit"], "CorrectInputs": [[["3 4"], 1505776823]], "BadInput": ["4 6"], "UniqueId": "c2ad8458-a21f-4310-a5bd-df5eec9660e6_0", "TimeStamp": 1505776846}
+[{}, {}]
+
+File num 25 
+ID = c2ad8458-a21f-4310-a5bd-df5eec9660e6_1
+NEXT SCENARIO
+{"ip": "4.28.70.34", "ErrorMessage": "Traceback (most recent call last):\n  File \"temp2017.py\", line 24, in <module>\n    hanoi(number, start, goal, work)\n  File \"temp2017.py\", line 21, in hanoi\n    hanoi(n-1, work, goal, start)\n  File \"temp2017.py\", line 15, in hanoi\n    goal.append(start.pop())\nIndexError: pop from empty list\n", "LastIsEmpty": false, "ErrorType": "IndexError", "CoverageInfo": [17, 1, 6, 1, 91, "25,", "23->exit"], "CorrectInputs": [[["3 4"], 1505777236]], "BadInput": ["4 6"], "UniqueId": "c2ad8458-a21f-4310-a5bd-df5eec9660e6_1", "TimeStamp": 1505777185}
+[{}, {}]
+
+File num 26 
+ID = c2ad8458-a21f-4310-a5bd-df5eec9660e6_2
+NEXT SCENARIO
+{"ip": "4.28.70.34", "ErrorMessage": "Traceback (most recent call last):\n  File \"temp2017.py\", line 24, in <module>\n    hanoi(number, start, goal, work)\n  File \"temp2017.py\", line 13, in hanoi\n    hanoi(n-1, start, work, goal)\n  File \"temp2017.py\", line 21, in hanoi\n    hanoi(n-1, work, goal, start)\n  File \"temp2017.py\", line 15, in hanoi\n    goal.append(start.pop())\nIndexError: pop from empty list\n", "LastIsEmpty": false, "ErrorType": "IndexError", "CoverageInfo": [17, 1, 6, 1, 91, "25,", "23->exit"], "CorrectInputs": [[["3 4"], 1505777236]], "BadInput": ["4 2"], "UniqueId": "c2ad8458-a21f-4310-a5bd-df5eec9660e6_2", "TimeStamp": 1505777284}
+[{}, {}]
+
+File num 27 
+ID = c2ad8458-a21f-4310-a5bd-df5eec9660e6_3
+NEXT SCENARIO
+{"ip": "4.28.70.34", "ErrorMessage": "Traceback (most recent call last):\n  File \"temp2017.py\", line 23, in <module>\n    hanoi(number, start, goal, work)\n  File \"temp2017.py\", line 20, in hanoi\n    hanoi(n-1, work, goal, start)\n  File \"temp2017.py\", line 14, in hanoi\n    goal.append(start.pop())\nIndexError: pop from empty list\n", "LastIsEmpty": false, "ErrorType": "IndexError", "CoverageInfo": [16, 1, 6, 1, 91, "24,", "22->exit"], "CorrectInputs": [[["4 15"], 1505777610]], "BadInput": ["4 6"], "UniqueId": "c2ad8458-a21f-4310-a5bd-df5eec9660e6_3", "TimeStamp": 1505777773}
+[{}, {}]
+
+File num 28 
+ID = c2b39aee-d800-497a-8aee-faa64f090631_0
+NEXT SCENARIO
+{"ip": "182.232.154.79", "ErrorMessage": "Traceback (most recent call last):\n  File \"temp2017.py\", line 14, in <module>\n    firstsen=fristsen[firstword+1:len(firstsen)]\nNameError: name 'fristsen' is not defined\n", "LastIsEmpty": false, "ErrorType": "NameError", "CoverageInfo": [16, 5, 6, 2, 59, "10-12,", "15-16,", "5->15,", "9->10"], "CorrectInputs": [[["b b", "b"], 1497742617]], "BadInput": ["c b", "b"], "UniqueId": "c2b39aee-d800-497a-8aee-faa64f090631_0", "TimeStamp": 1497742723}
+[{}, {}]
+
+File num 29 
+ID = c2b55658-d8d6-4ce3-9497-da37e9535e9f_0
+NEXT SCENARIO
+{"ip": "2407:7000:962f:3671:dcf4:1af6:f112:4273", "ErrorMessage": "Traceback (most recent call last):\n  File \"temp2017.py\", line 5, in <module>\n    while t[0] == \"n\":\nIndexError: string index out of range\n", "LastIsEmpty": false, "ErrorType": "IndexError", "CoverageInfo": [7, 0, 4, 1, 91, "4->exit"], "CorrectInputs": [[["1234567998"], 1503749151], [["123456798"], 1503749167], [["nnnnnnn"], 1503749543]], "BadInput": ["nnnnnnnnnnnnnnnnnn"], "UniqueId": "c2b55658-d8d6-4ce3-9497-da37e9535e9f_0", "TimeStamp": 1503749579}
+[{}, {}]
+
+File num 30 
+ID = c2c4026d-dea0-489b-e719-30804af89291_0
+NEXT SCENARIO
+{"ip": "78.37.77.194", "ErrorMessage": "Traceback (most recent call last):\n  File \"temp2017.py\", line 1, in <module>\n    x = int(input(\"\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u043d\u0430\u0442\u0443\u0440\u0430\u043b\u044c\u043d\u043e\u0435 \u0447\u0438\u0441\u043b\u043e: \"))\nValueError: invalid literal for int() with base 10: '20,2'\n", "LastIsEmpty": false, "ErrorType": "ValueError", "CoverageInfo": [7, 6, 2, 0, 11, "2-9"], "CorrectInputs": [[["20"], 1507217788]], "BadInput": ["20,2"], "UniqueId": "c2c4026d-dea0-489b-e719-30804af89291_0", "TimeStamp": 1507217846}
+[{}, {}]
+
+File num 31 
+ID = c2ca9d87-1823-4528-a0fe-b2519d66dfaa_0
+NEXT SCENARIO
+{"ip": "200.17.112.121", "ErrorMessage": "Traceback (most recent call last):\n  File \"temp2017.py\", line 6, in <module>\n    elif nome.uper() not in funcionarios_cadastrados:\nAttributeError: 'str' object has no attribute 'uper'\n", "LastIsEmpty": false, "ErrorType": "AttributeError", "CoverageInfo": [8, 4, 4, 2, 50, "5,", "7-9,", "4->5,", "6->7"], "CorrectInputs": [[["caio"], 1505158959]], "BadInput": ["pedro"], "UniqueId": "c2ca9d87-1823-4528-a0fe-b2519d66dfaa_0", "TimeStamp": 1505158970}
+[{}, {}]
+
+File num 32 
+ID = c2d45b0b-3fa3-4eed-d606-38d4b14d1a2d_0
+NEXT SCENARIO
+{"ip": "5.139.7.167", "ErrorMessage": "Traceback (most recent call last):\n  File \"temp2017.py\", line 1, in <module>\n    y = int(input())\nValueError: invalid literal for int() with base 10: '2,2'\n", "LastIsEmpty": false, "ErrorType": "ValueError", "CoverageInfo": [3, 2, 0, 0, 33, "2-3"], "CorrectInputs": [[["2", "2"], 1490018967]], "BadInput": ["2,2"], "UniqueId": "c2d45b0b-3fa3-4eed-d606-38d4b14d1a2d_0", "TimeStamp": 1490018947}
+[{}, {}]
+
+File num 33 
+ID = c2d45b0b-3fa3-4eed-d606-38d4b14d1a2d_1
+NEXT SCENARIO
+{"ip": "5.139.7.167", "ErrorMessage": "Traceback (most recent call last):\n  File \"temp2017.py\", line 1, in <module>\n    y = int(input())\nValueError: invalid literal for int() with base 10: '2^3'\n", "LastIsEmpty": false, "ErrorType": "ValueError", "CoverageInfo": [3, 2, 0, 0, 33, "2-3"], "CorrectInputs": [[["2", "2"], 1490018967]], "BadInput": ["2^3"], "UniqueId": "c2d45b0b-3fa3-4eed-d606-38d4b14d1a2d_1", "TimeStamp": 1490019088}
+[{}, {}]
+
+File num 34 
+ID = c2dd44e9-d115-4404-d297-f4df8535ba90_0
+NEXT SCENARIO
+{"ip": "200.17.112.121", "ErrorMessage": "Traceback (most recent call last):\n  File \"temp2017.py\", line 1, in <module>\n    dado = int(input ())\nValueError: invalid literal for int() with base 10: '4.0'\n", "LastIsEmpty": false, "ErrorType": "ValueError", "CoverageInfo": [5, 4, 0, 0, 20, "2-5"], "CorrectInputs": [[["4"], 1501092184]], "BadInput": ["4.0"], "UniqueId": "c2dd44e9-d115-4404-d297-f4df8535ba90_0", "TimeStamp": 1501092175}
+[{}, {}]
+
+File num 35 
+ID = c2e022fe-ac48-4bd9-9d22-eded6a88b076_0
+NEXT SCENARIO
+{"ip": "73.95.106.184", "ErrorMessage": "Traceback (most recent call last):\n  File \"temp2017.py\", line 36, in <module>\n    main ()\n  File \"temp2017.py\", line 5, in main\n    number = int( input (\"\") )\nValueError: invalid literal for int() with base 10: '1.9'\n", "LastIsEmpty": false, "ErrorType": "ValueError", "CoverageInfo": [27, 21, 12, 0, 15, "6-29"], "CorrectInputs": [[["6"], 1506852876], [["0"], 1506852969], [["-5"], 1506853013]], "BadInput": ["1.9"], "UniqueId": "c2e022fe-ac48-4bd9-9d22-eded6a88b076_0", "TimeStamp": 1506853059}
+[{}, {}]
+
+File num 36 
+ID = c2e022fe-ac48-4bd9-9d22-eded6a88b076_1
+NEXT SCENARIO
+{"ip": "73.95.106.184", "ErrorMessage": "Traceback (most recent call last):\n  File \"temp2017.py\", line 36, in <module>\n    main ()\n  File \"temp2017.py\", line 5, in main\n    number = int( input (\"\") )\nValueError: invalid literal for int() with base 10: 'qq'\n", "LastIsEmpty": false, "ErrorType": "ValueError", "CoverageInfo": [27, 21, 12, 0, 15, "6-29"], "CorrectInputs": [[["6"], 1506852876], [["0"], 1506852969], [["-5"], 1506853013]], "BadInput": ["qq"], "UniqueId": "c2e022fe-ac48-4bd9-9d22-eded6a88b076_1", "TimeStamp": 1506853097}
+[{}, {}]
+
+File num 37 
+ID = c2e7ce47-aa4d-426d-832f-4ffc98d6b2c0_0
+NEXT SCENARIO
+{"ip": "78.99.10.20", "ErrorMessage": "Traceback (most recent call last):\n  File \"temp2017.py\", line 4, in <module>\n    a=int(input(\"Zadaj \u010d\u00edslo a 0 pre ukon\u010denie\"))\nValueError: invalid literal for int() with base 10: 'f'\n", "LastIsEmpty": false, "ErrorType": "ValueError", "CoverageInfo": [28, 23, 12, 1, 15, "6,", "9-41,", "5->6"], "CorrectInputs": [[["4", "5", "2", "7", "7", "4"], 1511074354]], "BadInput": ["5", "6", "4", "8", "2", "3", "f"], "UniqueId": "c2e7ce47-aa4d-426d-832f-4ffc98d6b2c0_0", "TimeStamp": 1511074304}
+[{}, {}]
+
+File num 38 
+ID = c2f40b4e-492f-4dd4-edb9-21d174e46d2b_0
+NEXT SCENARIO
+{"ip": "2601:445:4101:4ad:c1a7:4339:e124:11d2", "ErrorMessage": "Traceback (most recent call last):\n  File \"temp2017.py\", line 6, in <module>\n    convertbinary()\n  File \"temp2017.py\", line 3, in convertbinary\n    x = int(binarystring, 2)\nValueError: invalid literal for int() with base 2: \"'1110101\"\n", "LastIsEmpty": false, "ErrorType": "ValueError", "CoverageInfo": [5, 1, 0, 0, 80, "4"], "CorrectInputs": [[["11111111"], 1487866900], [["1110101"], 1487866972]], "BadInput": ["'1110101"], "UniqueId": "c2f40b4e-492f-4dd4-edb9-21d174e46d2b_0", "TimeStamp": 1487866949}
+[{}, {}]
+

@@ -1,0 +1,10 @@
+{
+    "StateMachine": {
+        "MaxNumProbes": 6, 
+        "MaxNumFix": 1, 
+        "UseCoverage": 2}, 
+    "FixEmptyLastInputs": false, 
+    "SessionsFolderPath": "../exampleInputs", 
+    "Theories": ["StateMachine"], 
+    "LogFolderPath": "../exampleLogs"
+}

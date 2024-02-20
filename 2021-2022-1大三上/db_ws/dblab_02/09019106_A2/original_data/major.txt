@@ -1,0 +1,105 @@
+"dname"	"sid"
+"Chemical Engineering"	25
+"Chemical Engineering"	26
+"Chemical Engineering"	27
+"Chemical Engineering"	28
+"Chemical Engineering"	29
+"Chemical Engineering"	30
+"Chemical Engineering"	31
+"Chemical Engineering"	32
+"Chemical Engineering"	33
+"Chemical Engineering"	34
+"Chemical Engineering"	35
+"Civil Engineering"	36
+"Civil Engineering"	37
+"Civil Engineering"	38
+"Civil Engineering"	39
+"Civil Engineering"	40
+"Civil Engineering"	41
+"Civil Engineering"	42
+"Civil Engineering"	43
+"Civil Engineering"	44
+"Civil Engineering"	45
+"Civil Engineering"	46
+"Civil Engineering"	47
+"Civil Engineering"	48
+"Civil Engineering"	49
+"Civil Engineering"	50
+"Civil Engineering"	51
+"Civil Engineering"	52
+"Civil Engineering"	53
+"Civil Engineering"	54
+"Civil Engineering"	55
+"Civil Engineering"	56
+"Civil Engineering"	57
+"Civil Engineering"	58
+"Civil Engineering"	59
+"Civil Engineering"	60
+"Civil Engineering"	61
+"Civil Engineering"	62
+"Civil Engineering"	63
+"Computer Sciences"	1
+"Computer Sciences"	2
+"Computer Sciences"	3
+"Computer Sciences"	4
+"Computer Sciences"	5
+"Computer Sciences"	6
+"Computer Sciences"	7
+"Computer Sciences"	8
+"Computer Sciences"	9
+"Computer Sciences"	10
+"Computer Sciences"	11
+"Computer Sciences"	12
+"Computer Sciences"	13
+"Computer Sciences"	14
+"Computer Sciences"	15
+"Computer Sciences"	16
+"Computer Sciences"	17
+"Computer Sciences"	18
+"Computer Sciences"	19
+"Computer Sciences"	20
+"Computer Sciences"	21
+"Computer Sciences"	22
+"Computer Sciences"	23
+"Computer Sciences"	24
+"Industrial Engineering"	64
+"Industrial Engineering"	65
+"Industrial Engineering"	66
+"Industrial Engineering"	67
+"Industrial Engineering"	68
+"Industrial Engineering"	69
+"Industrial Engineering"	70
+"Industrial Engineering"	71
+"Industrial Engineering"	72
+"Industrial Engineering"	73
+"Industrial Engineering"	74
+"Industrial Engineering"	75
+"Industrial Engineering"	76
+"Industrial Engineering"	77
+"Industrial Engineering"	78
+"Industrial Engineering"	79
+"Industrial Engineering"	80
+"Industrial Engineering"	81
+"Industrial Engineering"	82
+"Industrial Engineering"	83
+"Mathematics"	0
+"Mathematics"	1
+"Mathematics"	2
+"Mathematics"	3
+"Mathematics"	84
+"Mathematics"	85
+"Mathematics"	86
+"Mathematics"	87
+"Mathematics"	88
+"Mathematics"	89
+"Mathematics"	90
+"Mathematics"	91
+"Mathematics"	92
+"Mathematics"	93
+"Mathematics"	94
+"Mathematics"	95
+"Mathematics"	96
+"Mathematics"	97
+"Mathematics"	98
+"Mathematics"	99
+"Sanitary Engineering"	4

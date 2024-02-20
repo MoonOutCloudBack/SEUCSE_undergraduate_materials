@@ -1,0 +1,11 @@
+nome_aluno=input("Digite o nome do aluno: ")
+nota1=float(input("Informe a nota da primeira prova: "))
+nota2=float(input("Informe a nota da segunda prova: "))
+media_final=(nota1+nota2)/2
+print("Média final", media_final,"pontos")
+aprovado = (media_final>= 7)
+recuperacao = (media_final>5 and media_final<7)
+reprovado = not (media_final >= 5)
+print("Parabéns", nome_aluno, "você foi aprovado", aprovado) 
+print(nome_aluno, "você foi reprovado", reprovado)
+print(nome_aluno, "você está de recuperação", recuperacao)
